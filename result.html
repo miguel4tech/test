@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result Sheet</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        header{
+            display: flex;
+            flex-flow: row nowrap;
+            align-content: center;
+            justify-content: space-around;
+            align-items: center;
+            margin: 20px;
+            padding: 20px ;
+            text-align: center;
+        }
+        .profile, .result_table, .Cummulative, p{
+            overflow-x: auto;
+            margin: 0 30px 0 40px;
+        }
+        .result_table th,.result_table td{
+            border: 2px solid;
+        }
+        table{
+            border-collapse: collapse;
+            width: 100%;
+        }
+        table th{
+            padding: 12px 12px;
+            text-align: start;
+        }
+        table td{
+            text-align:start;
+            padding: 8px;
+        }
+        .result_table th{
+            background-color: rgb(30, 172, 227);
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <div style="margin-right:20px;" >
+            <img src="/Week1/Institution_logo.jpg" alt="Institution logo" class="sch_logo">
+        </div>
+        <div>
+        <H2 class="Institution" id="School Name">BELLS UNIVERSITY OF TECHNILOGY</H2>
+        <H3 class="Institution" id="Depertment">DEPARTMENT OF ELECTRICAL ELECTRONICS AND COMPUTER ENGINEERING</H3>
+        <H3 class="Institution" id="Program">PROGRAM: ELECTRICAL & ELECTRONICS ENGINEERING</H3>
+        </div>
+    </header>
+    <br>
+        <div class="profile">
+            <table>
+                <h3 style="text-align:center; margin-bottom:20px;">
+                    Semester Result
+                </h3>
+                <tr>
+                    <th>Session:</th>
+                    <th>Level/Semester:</th>
+                    <th>Matric Number:</th>
+                    <th>Date Issued:</th>
+                    <th>Surname:</th>
+                    <th>Fullname:</th>
+                </tr>
+                <tr>
+                    <td>2020/2021</td>
+                    <td>500/Second</td>
+                    <td>2017/5675</td>
+                    <td>27/09/2021</td>
+                    <td>ADEYEYE</td>
+                    <td>ADEYEYE, ADEBIMPE OLUWASEUN</td>
+                        <td>
+                            <img src="/Week1/generic_sch_girl_photo.jpg" alt="Student Photo" style="width:80px; height: 100px;
+                            object-fit: fill;
+                            margin-left: 20px; float: right; position: relative; top: -40px;">
+                        </td>
+                </tr>
+                
+            </table>
+        </div>
+        <div class="result_table">
+            <table>
+
+                <tr>
+                    <th>S/N</th>
+                    <th>Course Code</th>
+                    <th>Course Title</th>
+                    <th>Unit</th>
+                    <th>Score</th>
+                    <th>Grade</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>EEE 502</td>
+                    <td>Reliability and Maintainability of System</td>
+                    <td>2</td>
+                    <td>82</td>
+                    <td>A</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>EEE 504</td>
+                    <td>Digital Control Systems </td>
+                    <td>2</td>
+                    <td>70</td>
+                    <td>A</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>EEE 506</td>
+                    <td>High Voltage Technology </td>
+                    <td>2</td>
+                    <td>70</td>
+                    <td>A</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>EEE 508</td>
+                    <td>Student Research Project II </td>
+                    <td>6</td>
+                    <td>87</td>
+                    <td>A</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>EEE 512</td>
+                    <td>Engineering Law </td>
+                    <td>2</td>
+                    <td>77</td>
+                    <td>A</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>EEE 516</td>
+                    <td>Advances in Electrical & Electronics Engineering </td>
+                    <td>2</td>
+                    <td>76</td>
+                    <td>A</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>EEE 518</td>
+                    <td>Power System Operation and Control </td>
+                    <td>2</td>
+                    <td>76</td>
+                    <td>A</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>EEE 520</td>
+                    <td>High Voltage Power Transmission </td>
+                    <td>2</td>
+                    <td>71</td>
+                    <td>A</td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>ICT 552</td>
+                    <td>ISO 18001 (OHS) Foundation and Implementation</td>
+                    <td>1</td>
+                    <td>90</td>
+                    <td>A</td>
+                </tr>
+                
+            </table>
+        </div>
+        <div class="Cummulative" style="margin-bottom: 10rem; margin-top: 20px;">
+            <table style="border-spacing: 50px;">
+                <td>TNU: 21</td>
+                <td>TCP: 105</td>
+                <td>Cumulative TNU: 153</td>
+                <td>Cumulative TCP: 749</td>
+                <td> 
+                    <em>
+                    Outstanding Results:
+                    </em>
+                </td>
+                    <td ><b>GPA: 5.00</b></td>
+                    <td><b>CGPA: 4.90</b></td>
+            </table>
+        </div>
+        <div class="footer" style="text-align:center;">
+            <p>
+                <em>
+                    This is not an official transcript. Please apply for an official transcript through the Registrar's Office.
+                </em>
+            </p>
+            <br>
+            <p>
+                <em>
+                    This printout was generated on 27/09/2021, 03:35:pm
+                </em>
+            </p>
+        </div>
+
+</body>
+</html>
