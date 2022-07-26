@@ -1,3 +1,3 @@
 # test
-just testing the txt file
-attempting some changes
+The is a practice project.
+No copyright infringement intended, just a tech bro brushing on skills.
