@@ -15,15 +15,31 @@
             display: flex;
             flex-flow: row nowrap;
             align-content: center;
-            justify-content: space-around;
+            justify-content: center;
             align-items: center;
-            margin: 20px;
             padding: 20px ;
             text-align: center;
         }
-        .profile, .result_table, .Cummulative, p{
-            overflow-x: auto;
+        .profile{
+            display: flex;
             margin: 0 30px 0 40px;
+            justify-content: space-between;
+            align-items: center;
+            overflow-x: auto;
+        }
+        ul {
+            display: flex;
+            justify-content: space-between;
+            list-style: none;
+        }
+        li{
+            justify-content: space-between;
+            margin: 15px;
+        }
+
+        .result_table, .Cummulative, p{
+            overflow-x: auto;
+            margin: 0 30px 0 30px;
         }
         .result_table th,.result_table td{
             border: 2px solid;
@@ -48,45 +64,38 @@
 </head>
 <body>
     <header>
-        <div style="margin-right:20px;" >
+        <div style="
+        padding-right: 50px;">
             <img src="https://github.com/miguel4tech/test/blob/main/Institution_logo.jpg?raw=true" alt="Institution logo" class="sch_logo">
         </div>
-        <div style="margin-right: 150px; line-height: 2;">
+        <div style="
+        line-height: 2;">
         <H1 class="Institution" id="School Name">BELLS UNIVERSITY OF TECHNOLOGY</H1>
         <H3 class="Institution" id="Depertment">DEPARTMENT OF ELECTRICAL ELECTRONICS AND COMPUTER ENGINEERING</H3>
         <H3 class="Institution" id="Program">PROGRAM: ELECTRICAL & ELECTRONICS ENGINEERING</H3>
         </div>
     </header>
-    <br>
-        <div class="profile">
-            <table>
-                <h3 style="text-align:center; margin-bottom:20px;">
-                    Semester Result
-                </h3>
-                <tr>
-                    <th>Session:</th>
-                    <th>Level/Semester:</th>
-                    <th>Matric Number:</th>
-                    <th>Date Issued:</th>
-                    <th>Surname:</th>
-                    <th>Other name(s):</th>
-                </tr>
-                <tr>
-                    <td>2020/2021</td>
-                    <td>500/Second</td>
-                    <td>2017/5675</td>
-                    <td>27/09/2021</td>
-                    <td>ADEYEYE</td>
-                    <td>ADEBIMPE OLUWASEUN</td>
-                        <td>
-                            <img src="https://github.com/miguel4tech/test/blob/main/generic_sch_girl_photo.jpg?raw=true" alt="Student Photo" style="width:80px; height: 100px;
-                            object-fit: fill;
-                            margin-left: 20px; float: right; position: relative; top: -40px;">
-                        </td>
-                </tr>
+        <h3 style="text-align:center;">
+        Semester Result
+        </h3>
+            <div class="profile">
+                    
+                <div>
+                    <ul>
+                        <li>Session:  2020/2021</li>
+                        <li>Level/Semester: 500/Second</li>
+                        <li>Matric Number: 2017/5675</li>
+                        <li>Date Issued: 27/09/2021</li>
+                        <li>Fullname: <b>ADEYEYE
+                        </b>ADEBIMPE OLUWASEUN</li>
+                    </ul>
+                </div>
+                <image>
+                    <img src="https://github.com/miguel4tech/test/blob/main/generic_sch_girl_photo.jpg?raw=true" alt="Student Photo" style="width:80px; height: 100px;
+                    object-fit: fill;">
+                </image>
                 
-            </table>
-        </div>
+            </div>
         <div class="result_table">
             <table>
 
@@ -173,7 +182,8 @@
                 
             </table>
         </div>
-        <div class="Cummulative" style="margin-bottom: 10rem; margin-top: 20px;">
+        <div class="Cummulative"
+        style="margin-bottom: 5rem; margin-top: 20px;">
             <table style="border-spacing: 50px;">
                 <td>TNU: 21</td>
                 <td>TCP: 105</td>
@@ -187,8 +197,11 @@
                     <td ><b>GPA: 5.00</b></td>
                     <td><b>CGPA: 4.90</b></td>
             </table>
+            <p style="margin:15px  10px;">
+                REMARK:<em>Good Standing</em>
+            </p>
         </div>
-        <div class="footer" style="text-align:center;">
+        <footer style="text-align:center;">
             <p>
                 <em>
                     This is not an official transcript. Please apply for an official transcript through the Registrar's Office.
@@ -200,7 +213,7 @@
                     This printout was generated on 27/09/2021, 03:35:pm
                 </em>
             </p>
-        </div>
+        </footer>
 
 </body>
 </html>
